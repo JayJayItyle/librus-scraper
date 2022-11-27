@@ -1,6 +1,5 @@
 // LOADING HELPERS / CHECKERS
 const configchecker = require("./checkers/config-check");
-const timeout = require('./helpers/timeout')
 const stringremover = require('./helpers/string-remover')
 
 // LOADING MODULES
@@ -26,7 +25,7 @@ puppeteer.use(hidden())
 // CHECKING IF WEBSERVER SHOULD BE ON
 if (WEBSERVER_BOOLEAN) {
   app.listen(WEBSERVER_PORT, () => {
-      console.log(`serwer uruchomiony na porcie ${WEBSERVER_PORT}`)
+      console.log(`server started on port ${WEBSERVER_PORT}`)
   });
 }
 
@@ -176,7 +175,7 @@ async function ogloszenia() {
     if (SZCZESLIWYNUMEREK_BOOLEAN === 'true') {
     let element = await page.$('#user-section > span.luckyNumber > b')
     let value = await page.evaluate(el => el.textContent, element)
-    console.log('szczesliwy numerek to: ' + value)
+    console.log('the lucky number is: ' + value)
     }
   }
 
