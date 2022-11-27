@@ -8,7 +8,13 @@ a puppeteer-powered scraper tool with it's main goal being able to scrape synerg
 
 ## Deployment
 
-To deploy this project run
+To install the dependencies run
+
+```bash
+npm i
+```
+
+Then, to deploy this project run
 
 ```bash
   node index.js
