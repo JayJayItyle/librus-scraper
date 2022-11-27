@@ -32,5 +32,5 @@ Before deploying it, make sure to follow these steps:
 
 ## License
 
-[GPLV3](https://choosealicense.com/licenses/gpl-3.0/)
+[GNUv3](https://choosealicense.com/licenses/gpl-3.0/)
 
