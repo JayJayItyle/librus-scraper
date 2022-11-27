@@ -11,8 +11,8 @@ const express = require('express')
 
 // LOADING SETTINGS
 const config = require('./json/config.json');
-var WEBSERVER_BOOLEAN = config.webserver;
-var WEBSERVER_PORT = config.webserver_port;
+var API_BOOLEAN = config.api;
+var API_PORT = config.api_port;
 var SZCZESLIWYNUMEREK_BOOLEAN = config.szczesliwy_numerek;
 
 // CHECKING CONFIG VALIDITY
@@ -22,10 +22,10 @@ configchecker.check()
 const app = express()
 puppeteer.use(hidden())
 
-// CHECKING IF WEBSERVER SHOULD BE ON
-if (WEBSERVER_BOOLEAN) {
-  app.listen(WEBSERVER_PORT, () => {
-      console.log(`server started on port ${WEBSERVER_PORT}`)
+// CHECKING IF API SHOULD BE ON
+if (API_BOOLEAN) {
+  app.listen(API_PORT, () => {
+      console.log(`server started on port ${API_PORT}`)
   });
 }
 
