@@ -1,7 +1,7 @@
 
 # librus-scraper
 
-a puppeteer-powered scraper tool with it's main goal being able to scrape synergia.librus.pl
+a puppeteer-powered scraper tool for synergia.librus.pl
 
 
 
@@ -27,7 +27,14 @@ Then, to deploy this project run
   node index.js
 ```
   
-
+## Config
+```
+{
+    "szczesliwy_numerek": false, - checks the lucky_number value and logs it to console
+    "webserver": true, - whether the webserver is enabled or disabled
+    "webserver_port": 3000 - webserver port
+}
+```
 
 ## Features
 
