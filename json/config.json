@@ -1,5 +1,5 @@
 {
     "szczesliwy_numerek": false,
-    "webserver": true,
-    "webserver_port": 3000
+    "api": true,
+    "api_port": 3000
 }
