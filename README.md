@@ -24,6 +24,7 @@ Before deploying it, make sure to follow these steps:
   1. Go to https://portal.librus.pl/rodzina/synergia/loguj
   2. Use EditThisCookie to grab your cookies when you log-in
   3. Paste your cookies (json format) into ./json/cookies.json
+  4. Configure the app (./json/config.json)
   
 
 
