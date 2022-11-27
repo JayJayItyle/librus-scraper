@@ -31,8 +31,8 @@ Then, to deploy this project run
 ```
 {
     "szczesliwy_numerek": false, - checks the lucky_number value and logs it to console
-    "webserver": true, - whether the webserver is enabled or disabled
-    "webserver_port": 3000 - webserver port
+    "api": true, - whether the api is enabled or disabled
+    "api_port": 3000 - api port
 }
 ```
 
