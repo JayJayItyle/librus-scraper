@@ -175,7 +175,7 @@ async function ogloszenia() {
     if (SZCZESLIWYNUMEREK_BOOLEAN === 'true') {
     let element = await page.$('#user-section > span.luckyNumber > b')
     let value = await page.evaluate(el => el.textContent, element)
-    console.log('the lucky number is: ' + value)
+    console.log(`the lucky number is:  ${value}`)
     }
   }
 
