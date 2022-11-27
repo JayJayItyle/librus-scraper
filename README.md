@@ -32,5 +32,5 @@ Before deploying it, make sure to follow these steps:
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GPLV3](https://choosealicense.com/licenses/gpl-3.0/)
 
